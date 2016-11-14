@@ -18,8 +18,8 @@ python bot.py # <- You could not have guessed that!
 ```
 
 ## Depencencies
-- [python-telegram-bot](https://github.com/slackapi/python-slackclient)
-- [slackclient](https://github.com/python-telegram-bot/python-telegram-bot)
+- [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot)
+- [slackclient](https://github.com/slackapi/python-slackclient)
 
 Install the dependencies via pip: `pip install -r requirements.txt`.
 
