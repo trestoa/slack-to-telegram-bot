@@ -25,4 +25,4 @@ Install the dependencies via pip: `pip install -r requirements.txt`.
 
 ## License
 Licensed under the [Unlicense](http://unlicense.org/).
-Do with it what ever you want.
+Do with it whatever you want.
