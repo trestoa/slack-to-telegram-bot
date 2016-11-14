@@ -1,4 +1,4 @@
-# python-slack-to-telegram-bot
+# slack-to-telegram-bot
 Bot for forwarding slack messages to telegram.
 
 ## Usage
@@ -7,7 +7,7 @@ Tested on Python 3.5.
 For configuration, set the following environment variables:
 ```
 $ export SLACK_TOKEN=''     # Slack bot token
-$ export SLACK_TOKEN=''     # Telegram bot token
+$ export TELEGRAM_TOKEN=''  # Telegram bot token
 $ export TELEGRAM_TARGET='' # Target chat
 ```
 For the target chat, see http://stackoverflow.com/questions/32423837/telegram-bot-how-to-get-a-group-chat-id-ruby-gem-telegram-bot.
