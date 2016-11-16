@@ -34,9 +34,9 @@ if sc.rtm_connect():
 
                     msg_string = '@{} posted to #{}: {}'.format(user['name'], channel['name'], message['text'])
                     telegram_bot.sendMessage(TELEGRAM_TARGET, msg_string)
-            except e:
+            except:
                 print('Could not send message.')
-                print(e)
+                print("Unexpected error:", sys.exc_info()[0])
         time.sleep(1)
 else:
     print("Connection Failed, invalid token?")
