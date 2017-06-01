@@ -16,7 +16,7 @@ Run with:
 ```
 python bot.py # <- You could not have guessed that!
 ```
-You can also build and use docker image:
+You can also build and use the docker image:
 ```
 docker build -t <docker-image-url:docker-image-tag> .
 docker push <docker-image-url:docker-image-tag>
