@@ -16,6 +16,12 @@ Run with:
 ```
 python bot.py # <- You could not have guessed that!
 ```
+You can also build and use the docker image:
+```
+docker build -t <docker-image-url:docker-image-tag> .
+docker push <docker-image-url:docker-image-tag>
+docker run -d --name slack-to-telegram-bot --restart=always -e TELEGRAM_TOKEN='$TELEGRAM_TOKEN' -e TELEGRAM_TARGET='$TELEGRAM_TARGET' -e SLACK_TOKEN='$SLACK_TOKEN' <docker-image-url:docker-image-tag>
+```
 
 ## Depencencies
 - [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot)
