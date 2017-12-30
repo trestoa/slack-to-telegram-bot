@@ -23,6 +23,13 @@ docker push <docker-image-url:docker-image-tag>
 docker run -d --name slack-to-telegram-bot --restart=always -e TELEGRAM_TOKEN='$TELEGRAM_TOKEN' -e TELEGRAM_TARGET='$TELEGRAM_TARGET' -e SLACK_TOKEN='$SLACK_TOKEN' <docker-image-url:docker-image-tag>
 ```
 
+## Other implementations
+
+There is also [PHP version of this project](https://github.com/421p/slack-to-telegram-bot) (same api, few additional features)  maintained by [421p](https://github.com/421p)
+
+* [github repository](https://github.com/421p/slack-to-telegram-bot)
+* [docker image](https://hub.docker.com/r/421p/slack-to-telegram-bot)
+
 ## Depencencies
 - [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot)
 - [slackclient](https://github.com/slackapi/python-slackclient)
